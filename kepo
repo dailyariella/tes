@@ -1,0 +1,107 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #f20fd0;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+header span{
+    margin-left: 100px;
+    font-weight: bold;
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+#logoAgensi {
+  width: 150px;
+  height: auto;
+}
+
+.headerArea {
+  flex: 1;
+  text-align: center;
+}
+
+#judulArtikel {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.logo_gidle {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.logo_gidle img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+main {
+  padding: 20px;
+}
+
+aside.member {
+  float: left;
+  width: 20%;
+  margin-right: 20px;
+}
+
+aside.member img {
+  width: 100%;
+  height: auto;
+}
+
+article {
+  clear: both;
+  margin-bottom: 20px;
+}
+
+article h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+article p {
+  line-height: 1.5;
+}
+
+article.artikel-atas img {
+  float: left;
+  margin-right: 10px;
+  width: 100px;
+  height: auto;
+}
+
+article.artikel-bawah {
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+#call img {
+  width: 50px;
+  height: auto;
+}
+
+
